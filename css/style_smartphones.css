@@ -13,8 +13,8 @@ header {
   flex-direction: column;
   margin-bottom: unset;
 }
-/*Section 0: Logo et menu de navigation*/
 
+/*Section 0: Logo et menu de navigation*/
 .logo_Booki {
   margin-top: 25px;
   height: 62px;
@@ -156,9 +156,12 @@ i.fa-search {
   margin-top: 12px;
   width: 225px;
 }
+
 /*Section2: hebergement et les plus populaires*/
 .section2 {
   margin: unset;
+  display: flex;
+  flex-direction: column-reverse;
 }
 .contenair_heb {
   background-color: unset;
@@ -192,6 +195,7 @@ i.fa-search {
   margin-left: 5.33%;
   margin-right: 5.33%;
 }
+
 /**Section 2.2: carte Les plus populaires**/
 .card_pop {
   width: 89.33%;
@@ -220,8 +224,8 @@ i.fa-search {
   height: 136px;
   border-radius: 15px 0px 0px 15px;
 }
-/*Section 2.1: Hebergements a Marseille*/
 
+/*Section 2.1: Hebergements a Marseille*/
 .card_image_heb {
   width: 100%;
   height: 145px;
@@ -236,10 +240,10 @@ i.fa-search {
   margin: 6px 0 0px 16px;
 }
 .tailleImg1 {
-  padding: 0px 5px 0px 5px;
+  padding: 5px 5px 0px 5px;
   width: 100%;
   height: 114px;
-  border-radius: 23px 23px 0px 0px;
+  border-radius: 25px 25px 0px 0px;
 }
 .stars_marseille {
   margin-top: 6px;
