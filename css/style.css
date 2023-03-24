@@ -29,6 +29,12 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+p {
+  color: black;
+}
+h3 {
+  color: black;
+}
 a:visited {
   color: black;
 }
@@ -142,7 +148,7 @@ input#search_city {
   height: 50px;
   padding-left: 17px;
 }
-::placeholder { 
+::placeholder {
   color: black;
   opacity: 1;
 }
